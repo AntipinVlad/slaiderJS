@@ -1,0 +1,19 @@
+#slaider {
+  margin: auto;
+  overflow: hidden;
+
+  #polosa {
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    img {
+      float: left;
+      width: 1100px;
+    }
+    &:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
+}
